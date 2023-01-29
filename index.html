@@ -1,0 +1,258 @@
+<html>
+    <head>
+        <title>Google Lens VS MobileNet</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+      </head>
+      <body>
+        <ol>
+            <div class="container main">
+            <div class="image_and_result col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image </b>
+                    <img src="campass.jpg" class="img-responsive">
+
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on - <b>GOOGLE LENS</b>
+                        <span>Staedtler Drafting Machine Drawing Board</span>
+                    </h5>
+
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on - <b>MobileNet Model</b>
+                        <span>TriPod</span>
+                    </h5>
+
+                    <div class="mini_results col-xs-12">
+                        <h4>Results - </h4>
+                        <hr>
+                        <h4>Google Lens is more Acurate</h4>
+                    </div>
+                </li>
+            </div>
+            <br>
+            <div class="image_and_result col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image </b>
+                    <img src="hershey's-bar.jpg" class="img-responsive">
+
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on - <b>GOOGLE LENS</b>
+                        <span>Hershey's Cookies 'n' Creme</span>
+                    </h5>
+
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on - <b>MobileNet Model</b>
+                        <span>Packet</span>
+                    </h5>
+
+                    <div class="mini_results col-xs-12">
+                        <h4>Results - </h4>
+                        <hr>
+                        <h4>Google Lens is more Acurate</h4>
+                    </div>
+                </li>
+            </div>
+            <br>
+            <div class="image_and_result col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image </b>
+                    <img src="jalapeno.jpg" class="img-responsive">
+
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on - <b>GOOGLE LENS</b>
+                        <span>Jalapeno</span>
+                    </h5>
+
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on - <b>MobileNet Model</b>
+                        <span>Leaf Beetle</span>
+                    </h5>
+
+                    <div class="mini_results col-xs-12">
+                        <h4>Results - </h4>
+                        <hr>
+                        <h4>Google Lens is more Acurate</h4>
+                    </div>
+                </li>
+            </div>
+            <br>
+            <div class="image_and_result col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image </b>
+                    <img src="onion.jpg" class="img-responsive">
+
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on - <b>GOOGLE LENS</b>
+                        <span>Organic Large Red Onion</span>
+                    </h5>
+
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on - <b>MobileNet Model</b>
+                        <span>Ballon</span>
+                    </h5>
+
+                    <div class="mini_results col-xs-12">
+                        <h4>Results - </h4>
+                        <hr>
+                        <h4>Google Lens is more Acurate</h4>
+                    </div>
+                </li>
+            </div>
+            <br>
+            <div class="image_and_result col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image </b>
+                    <img src="pen.jpg" class="img-responsive">
+
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on - <b>GOOGLE LENS</b>
+                        <span>Clip Click Reractable Ball Point Pen</span>
+                    </h5>
+
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on - <b>MobileNet Model</b>
+                        <span>Microphone, Mike</span>
+                    </h5>
+
+                    <div class="mini_results col-xs-12">
+                        <h4>Results - </h4>
+                        <hr>
+                        <h4>Google Lens is more Acurate</h4>
+                    </div>
+                </li>
+            </div>
+            <br>
+            <div class="image_and_result col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image </b>
+                    <img src="popsical-stick.jpg" class="img-responsive">
+
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on - <b>GOOGLE LENS</b>
+                        <span>Dynarex Tongue Depressors Sterile</span>
+                    </h5>
+
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on - <b>MobileNet Model</b>
+                        <span>Band Aid</span>
+                    </h5>
+
+                    <div class="mini_results col-xs-12">
+                        <h4>Results - </h4>
+                        <hr>
+                        <h4>Google Lens is more Acurate</h4>
+                    </div>
+                </li>
+            </div>
+            <br>
+            <div class="image_and_result col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image </b>
+                    <img src="PS5-controller.jpg" class="img-responsive">
+
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on - <b>GOOGLE LENS</b>
+                        <span>Playstation 5 Console</span>
+                    </h5>
+
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on - <b>MobileNet Model</b>
+                        <span>Microphone, Mike</span>
+                    </h5>
+
+                    <div class="mini_results col-xs-12">
+                        <h4>Results - </h4>
+                        <hr>
+                        <h4>Google len is more Acurate</h4>
+                    </div>
+                </li>
+            </div>
+            <br>
+            <div class="image_and_result col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image </b>
+                    <img src="spoon.jpg" class="img-responsive">
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on - <b>GOOGLE LENS</b>
+                        <span>Silver Metal Cutlery</span>
+                    </h5>
+
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on - <b>MobileNet Model</b>
+                        <span>Spatula</span>
+                    </h5>
+
+                    <div class="mini_results col-xs-12">
+                        <h4>Results - </h4>
+                        <hr>
+                        <h4>MoblieNet is more Acurate</h4>
+                    </div>
+                </li>
+            </div>
+            <br>
+            <div class="image_and_result col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image </b>
+                    <img src="sticky-notes.jpg" class="img-responsive">
+                
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on - <b>GOOGLE LENS</b>
+                        <span>Blue Foam Sheet</span>
+                    </h5>
+
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on - <b>MobileNet Model</b>
+                        <span>Binder, Ring Binder</span>
+                    </h5>
+
+                    <div class="mini_results col-xs-12">
+                        <h4>Results - </h4>
+                        <hr>
+                        <h4>Google Lens is more Acurate</h4>
+                    </div>
+                </li>
+            </div>
+            <br>
+            <div class="image_and_result col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b>Test Image </b>
+                    <img src="white-pencil.jpg" class="img-responsive">
+
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on - <b>GOOGLE LENS</b>
+                        <span>Water Soluble Marking Pencils, White</span>
+                    </h5>
+
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on - <b>MobileNet Model</b>
+                        <span>Paint brush</span>
+                    </h5>
+
+                    <div class="mini_results col-xs-12">
+                        <h4>Results - </h4>
+                        <hr>
+                        <h4>Google Lens is more Acurate</h4>
+                    </div>
+                </li>
+            </div>
+            <br>
+        </div>
+        <br>
+        <hr>
+        <hr>
+        <br>
+        <div class="mini_results col-xs-12">
+            <h4>Final Results - </h4>
+            <hr>
+            <h4>Google Lens is more acurate, but may be wrong sometimes</h4>
+        </div>
+        </ol>
+      </body>
+</html>

@@ -1,0 +1,26 @@
+.main{
+    text-align: center;
+    margin-left: 400px;
+}
+
+body{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/000/214/470/original/vector-versus-fight-comic-style-background.jpg');
+    background-size: cover;
+}
+
+.mini_results{
+    background-color: lightsalmon;
+    border-radius: 20px;
+}
+
+b{
+    background-color:lightpink;
+    padding-left: 5px;
+    padding-right: 5px;
+    letter-spacing: 2px;
+    border-radius: 4px;
+}
+
+span{
+    background-color: aliceblue;
+}
